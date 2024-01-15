@@ -1,0 +1,178 @@
+navbar 
+/* ======================================= */
+@media only screen and (max-width: 1200px) and (min-height: 800) and (max-height: 1199px) {
+    nav {
+        /* prev padding: .6rem 6rem; */
+        padding: 1rem 5.7rem;
+    }
+    nav h1 {
+        /* prev font-size: 30px; */
+        font-size: 35px;
+    }
+    nav ul li a {
+        padding: .4rem 1rem;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-height: 800) and (max-height: 1199px) {
+    nav {
+        /* prev padding: .6rem 5.7rem; */
+        padding: .8rem 4rem;
+    }
+    nav h1 {
+        /* prev font-size: 29px; */
+        font-size: 33px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem 1rem; */
+        padding: .4rem 1rem;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-height: 800) and (max-height: 1199px) {
+    nav {
+        /* prev padding: .6rem 5rem; */
+        padding: 1rem 1.5rem;
+    }
+    nav h1 {
+        /* prev font-size: 28px; */
+        font-size: 28px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem .8rem; */
+        padding: .4rem .5rem;
+        /* prev font-size: 17px; */
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 500px) and (min-height: 800) and (max-height: 1199px) {
+    nav {
+        /* prev padding: .6rem 2.5rem; */
+        padding: 1rem 1rem;
+    }
+    nav h1 {
+        /* prev font-size: 24px; */
+        font-size: 25px;
+        width: 30%;
+        text-align: center;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .4rem; */
+        padding: .5rem .6rem;
+        /* prev font-size: 15px; */
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 410px) and (min-height: 800) and (max-height: 1199px) {
+    nav {
+        /* prev padding: .6rem 1rem; */
+        padding: .8rem .5rem;
+    }
+    nav h1 {
+        /* prev font-size: 19px; */
+        font-size: 19px;
+
+        width: 30%;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .3rem; */
+        padding: .5rem .6rem;
+        /* prev font-size: 14px; */
+        font-size: 16px;
+    }
+}
+/* ======================================= */
+
+
+
+
+
+
+
+/* ======================================= */
+@media only screen and (max-width: 1200px) and (min-height: 1200px) and (max-height: 1299px) {
+    nav {
+        /* prev padding: .6rem 6rem; */
+        padding: 1rem 5rem;
+    }
+    nav h1 {
+        /* prev font-size: 30px; */
+        font-size: 40px;
+    }
+    nav ul li a {
+        padding: .4rem 1rem;
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-height: 1200px) and (max-height: 1299px) {
+    nav {
+        /* prev padding: .6rem 5.7rem; */
+        padding: 1rem 4rem;
+    }
+    nav h1 {
+        /* prev font-size: 29px; */
+        font-size: 36px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem 1rem; */
+        padding: .4rem 1rem;
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-height: 1200px) and (max-height: 1299px) {
+    nav {
+        /* prev padding: .6rem 5rem; */
+        padding: 1rem 1.5rem;
+    }
+    nav h1 {
+        /* prev font-size: 28px; */
+        font-size: 30px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem .8rem; */
+        padding: .4rem .5rem;
+        /* prev font-size: 17px; */
+        font-size: 23px;    
+    }
+}
+@media only screen and (max-width: 500px) and (min-height: 1200px) and (max-height: 1299px) {
+    nav {
+        /* prev padding: .6rem 2.5rem; */
+        padding: 1.2rem 1rem;
+    }
+    nav h1 {
+        /* prev font-size: 24px; */
+        font-size: 28px;
+        width: 30%;
+        text-align: center;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .4rem; */
+        padding: .5rem .6rem;
+        /* prev font-size: 15px; */
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 410px) and (min-height: 1200px) and (max-height: 1299px) {
+    nav {
+        /* prev padding: .6rem 1rem; */
+        padding: .8rem .5rem;
+    }
+    nav h1 {
+        /* prev font-size: 19px; */
+        font-size: 23px;
+
+        width: 30%;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .3rem; */
+        padding: .5rem;
+        /* prev font-size: 14px; */
+        font-size: 19px;
+    }
+}
+/* ======================================= */

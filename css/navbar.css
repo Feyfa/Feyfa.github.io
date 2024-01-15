@@ -1,0 +1,224 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #0F1035;
+    padding: .6rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFD95A;
+    z-index: 99999999;
+}
+nav h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a {
+    padding: .3rem 1rem;
+    color: rgba(255, 217, 90,.7);
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+nav ul li a:hover {
+    background-color: rgba(100, 100, 100, .6);
+}
+nav ul li a.select {
+    background-color: rgba(100, 100, 100, .3);
+    color: rgb(255, 217, 90);
+}
+
+
+
+
+
+
+
+/* ======================================= */
+@media only screen and (max-width: 1200px) {
+    nav {
+        /* prev padding: .6rem 6rem; */
+        padding: .6rem 5.7rem;
+    }
+    nav h1 {
+        /* prev font-size: 30px; */
+        font-size: 29px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    nav {
+        /* prev padding: .6rem 5.7rem; */
+        padding: .6rem 5rem;
+    }
+    nav h1 {
+        /* prev font-size: 29px; */
+        font-size: 28px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem 1rem; */
+        padding: .3rem .8rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        /* prev padding: .6rem 5rem; */
+        padding: .6rem 2.5rem;
+    }
+    nav h1 {
+        /* prev font-size: 28px; */
+        font-size: 24px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem .8rem; */
+        padding: .2rem .4rem;
+        /* prev font-size: 17px; */
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    nav {
+        /* prev padding: .6rem 2.5rem; */
+        padding: .6rem 1rem;
+    }
+    nav h1 {
+        /* prev font-size: 24px; */
+        font-size: 19px;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .4rem; */
+        padding: .2rem .3rem;
+        /* prev font-size: 15px; */
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    nav {
+        /* prev padding: .6rem 1rem; */
+        padding: .6rem .5rem;
+    }
+    nav h1 {
+        /* prev font-size: 19px; */
+        font-size: 17px;
+
+        width: 30%;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .3rem; */
+        padding: .2rem .3rem;
+        /* prev font-size: 14px; */
+        font-size: 14px;
+    }
+}
+/* ======================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================= */
+@media only screen and (max-width: 1200px) and (min-height: 800px){
+    nav {
+        /* prev padding: .6rem 6rem; */
+        padding: 1rem 5.7rem;
+    }
+    nav h1 {
+        /* prev font-size: 30px; */
+        font-size: 35px;
+    }
+    nav ul li a {
+        padding: .4rem 1rem;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-height: 800px) {
+    nav {
+        /* prev padding: .6rem 5.7rem; */
+        padding: 1rem 4rem;
+    }
+    nav h1 {
+        /* prev font-size: 29px; */
+        font-size: 33px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem 1rem; */
+        padding: .5rem 1rem;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-height: 800px) {
+    nav {
+        /* prev padding: .6rem 5rem; */
+        padding: 1.5rem;
+    }
+    nav h1 {
+        /* prev font-size: 28px; */
+        font-size: 31px;
+    }
+    nav ul li a {
+        /* prev padding: .3rem .8rem; */
+        padding: .5rem 1rem;
+        /* prev font-size: 17px; */
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 500px) and (min-height: 800px) {
+    nav {
+        /* prev padding: .6rem 2.5rem; */
+        padding: 1rem 1rem;
+    }
+    nav h1 {
+        /* prev font-size: 24px; */
+        font-size: 25px;
+        width: 30%;
+        text-align: center;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .4rem; */
+        padding: .5rem .6rem;
+        /* prev font-size: 15px; */
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 410px) and (min-height: 800px) {
+    nav {
+        /* prev padding: .6rem 1rem; */
+        padding: .8rem .5rem;
+    }
+    nav h1 {
+        /* prev font-size: 19px; */
+        font-size: 23px;
+
+        width: 30%;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    nav ul li a {
+        /* prev padding: .2rem .3rem; */
+        padding: .5rem .6rem;
+        /* prev font-size: 14px; */
+        font-size: 19px;
+    }
+}
+/* ======================================= */

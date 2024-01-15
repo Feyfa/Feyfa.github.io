@@ -1,0 +1,249 @@
+#about-container {
+    overflow-x: hidden;
+    max-width: 100%;
+    padding: 5rem;
+    background-color: rgb(53, 54, 85)
+}
+#about-container .judul {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+#about-container .paragraf {
+    letter-spacing: .6px;
+    line-height: 1.5rem;
+    word-spacing: 2px;
+    margin: 1.3rem 0;
+    color: rgb(255, 255, 255);
+}
+#about-container .licensi {
+    margin: 1.3rem 0;
+    color: rgb(255, 179, 179);
+    font-style: italic;
+}
+#about-container .licensi a {
+    margin-left: .2rem;
+    color: rgb(144, 134, 255);
+}
+#about-container .licensi a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* =============================================================== */
+@media only screen and (max-width: 1200px) {
+    #about-container {
+        /* prev padding: 5rem; */
+        padding: 5rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    #about-container {
+        /* prev padding: 4.5rem; */
+        padding: 5rem 3rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #about-container {
+        /* prev padding: 5rem 3rem; */
+        padding: 5rem 2rem;
+    }
+    #about-container .judul {
+        /* prev font-size: 30px */
+        font-size: 28px;
+        /* prev letter-spacing: 3px */
+        letter-spacing: 2.7px;
+    }
+    #about-container .paragraf {
+        /* prev letter-spacing: .6px; */
+        letter-spacing: .7px;
+        /* prev line-height: 1.5rem; */
+        line-height: 1.5rem;
+        /* prev word-spacing: 2px; */
+        word-spacing: 2px;
+        /* prev margin: 1.3rem 0 */
+        margin: 1.8rem 0;
+        font-size: 15px;
+    }
+    #about-container .licensi {
+        /* prev margin: 1.3rem 0; */
+        margin: 1.8rem 0;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #about-container {
+        /* prev padding: 5rem 2rem; */
+        padding: 5rem 1.5rem;
+    }
+    #about-container .judul {
+        /* prev font-size: 28px */
+        font-size: 26px;
+        /* prev letter-spacing: 2.7px */
+        letter-spacing: 2.3px;
+    }
+    #about-container .paragraf {
+        /* prev letter-spacing: .7px; */
+        letter-spacing: .7px;
+        /* prev line-height: 1.5rem; */
+        line-height: 1.5rem;
+        /* prev word-spacing: 2px; */
+        word-spacing: 2px;
+        /* prev margin: 1.8rem 0 */
+        margin: 2.5rem 0;
+        /* prev font-size: 15px; */
+        font-size: 14px;
+    }
+    #about-container .licensi {
+        /* prev margin: 1.3rem 0; */
+        margin: 2.5rem 0;
+        /* prev font-size: 15px */
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    #about-container {
+        /* prev padding: 3rem 1.5rem; */
+        padding: 5rem 1rem;
+    }
+    #about-container .judul {
+        /* prev font-size: 26px */
+        font-size: 22px;
+        /* prev letter-spacing: 2.3px */
+        letter-spacing: 2px;
+    }
+    #about-container .paragraf {
+        /* prev letter-spacing: .7px; */
+        letter-spacing: .7px;
+        /* prev line-height: 1.5rem; */
+        line-height: 1.5rem;
+        /* prev word-spacing: 2px; */
+        word-spacing: 1px;
+        /* prev margin: 2.5rem 0 */
+        margin: 3rem 0;
+        /* prev font-size: 14px; */
+        font-size: 12px;
+    }
+    #about-container .licensi {
+        /* prev margin: 2.5rem 0; */
+        margin: 3rem 0;
+        /* prev font-size: 14px */
+        font-size: 12px;
+    }
+}
+/* =============================================================== */
+
+
+
+
+
+
+
+
+
+/* =============================================================== */
+@media only screen and (max-width: 1200px) and (min-height: 800px) {
+    #about-container {
+        /* prev padding: 5rem; */
+        padding: 5rem;
+    }
+    #about-container .judul {
+        font-size: 35px;
+    }
+    #about-container .paragraf {
+        font-size: 21px;
+        letter-spacing: 1px;
+        line-height: 2.2rem;
+        word-spacing: 1px;
+        margin: 3rem 0;
+    }
+    #about-container .licensi {
+        margin: 3rem 0;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-height: 800px) {
+    #about-container {
+        /* prev padding: 5rem; */
+        padding: 5rem 2.5rem;
+    }
+    #about-container .judul {
+        font-size: 38px;
+    }
+    #about-container .paragraf {
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 2.7rem;
+        word-spacing: 1px;
+        margin: 3rem 0;
+    }
+    #about-container .licensi {
+        margin: 3rem 0;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-height: 800px) {
+    #about-container {
+        /* prev padding: 5rem; */
+        padding: 5rem 2rem;
+    }
+    #about-container .judul {
+        font-size: 38px;
+    }
+    #about-container .paragraf {
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 2.7rem;
+        word-spacing: 1px;
+        margin: 3.5rem 0;
+    }
+    #about-container .licensi {
+        margin: 3.5rem 0;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 500px) and (min-height: 800px) {
+    #about-container {
+        /* prev padding: 5rem; */
+        padding: 5rem 1.5rem;
+    }
+    #about-container .judul {
+        font-size: 30px;
+    }
+    #about-container .paragraf {
+        font-size: 17px;
+        letter-spacing: .8px;
+        line-height: 2.4rem;
+        word-spacing: .8px;
+        margin: 3.5rem 0;
+    }
+    #about-container .licensi {
+        margin: 3.5rem 0;
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 410px) and (min-height: 800px) {
+    #about-container {
+        /* prev padding: 5rem; */
+        padding: 5rem 1rem;
+    }
+    #about-container .judul {
+        font-size: 25px;
+    }
+    #about-container .paragraf {
+        font-size: 16px;
+        letter-spacing: .5px;
+        line-height: 2rem;
+        word-spacing: .5px;
+        margin: 3.5rem 0;
+    }
+    #about-container .licensi {
+        margin: 3.5rem 0;
+        font-size: 16px;
+    }
+}
+/* =============================================================== */
