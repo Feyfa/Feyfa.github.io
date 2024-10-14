@@ -63,7 +63,7 @@ document.addEventListener('scroll', () => {
                 cardContainerEl.lastElementChild.classList.remove('show');
                 cardContainerEl.lastElementChild.classList.add('hidden');
             }
-        }, 50);
+        }, 0);
 
 
     })
